@@ -1,0 +1,57 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.wrapper {
+  display: flex;
+  gap: 50px;
+}
+
+.stores {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.store {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border: 1px solid rgb(172, 172, 244);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-end;
+}
+
+.input-label {
+  display: flex;
+  gap:20px;
+}
+
+.database {
+  background-color: rgb(245, 245, 245);
+  border-radius: 5px;
+  width: 480px;
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  min-height: 300px;
+  align-content: flex-start;
+  padding: 10px;
+}
+
+.tasklist {
+  background-color: rgb(245, 245, 245);
+  height: 400px;
+  padding: 10px;
+}

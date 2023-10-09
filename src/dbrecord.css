@@ -1,0 +1,7 @@
+.record-wrapper {
+    background-color: rgb(255, 250, 239);
+    border: 1px solid rgb(232, 211, 184);
+    border-radius: 5px;
+    width: 150px;
+    height: 60px;
+}
